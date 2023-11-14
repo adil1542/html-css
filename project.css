@@ -1,0 +1,361 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assects\ 2/img-1.jpg);
+    filter: brightness(0.75);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after
+{ 
+    width: 100%;
+
+}
+.navbar ul li a:hover{
+    color: orange;
+
+}
+button
+{
+    width:100px  ;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 5px ;
+    border-radius: 25px ;
+    font-weight: bold ;
+    border: 0px solid ;
+    background: rgb(136, 82, 82);
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+button:hover {
+    background-color:orange;
+    color: white;
+
+
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    color: white;
+}
+.content h1
+{
+ 
+    color: #FFF;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    letter-spacing: -0.408px;
+    text-transform: capitalize; 
+
+}
+.content p 
+{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 50px;
+    line-height: 60px;
+    letter-spacing: -0.408px;
+    text-transform: capitalize; 
+
+}
+
+
+.login-page {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CAC4C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    width: 50%;
+    margin: auto;
+}
+
+.login-page form {
+    display: flex;
+    align-items: center;
+}
+
+.login-page input[type="text"],
+.login-page input[type="password"],
+.login-page input[type="date"] {
+    background: white;
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 10px;
+    width: 80%; 
+}
+
+.login-page input[type="submit"] {
+    background: rgb(136, 82, 82);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 80%; 
+}
+.color-1{
+    width: 100%;
+    flex-shrink: 0;
+    border-radius:1px;
+    background:linear-gradient(180deg, #7E706A 0%, #635752 93.62%, #5C5F4E 100%);
+}
+.color-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+    color: rgba(255, 255, 255, 0.86);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.card-container{
+    background-color:#CAC4C1;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 325px;
+    background-color:#9D8F86 ;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    margin: 20px;
+    
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 27px;
+    color: #FFF;
+
+}
+.card-content h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.card-content p{
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.3; 
+    font-weight: 100;
+    font-size: 13px;  
+}
+.card-content .btn{
+    text-decoration: none;
+    color: white;
+    margin-left: 181px;
+    margin-top: 16px;
+    display: inline-block;
+    
+   
+
+} 
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    width: auto;
+    background: #CAC4C1;
+    text-align: left;
+    padding: 20px;
+}
+
+.left-content {
+    flex-shrink: 0;
+    width: 45%;
+}
+
+.right-content {
+    width: 45%;
+}
+
+.right-box {
+    margin-top: 20px; 
+}
+
+.text-1 {
+    font-size: 25px;
+    color: #4E4039;
+    font-weight: 700;
+ }
+
+.ticket-box {
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #4E4039;
+    color: #FFF;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+@media screen and (max-width: 610px) {
+    .main-box {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-content {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .right-content {
+      width: 100%;
+    }
+  
+
+  }
+   .main-footer {
+    width: auto;
+    height: 40vh;
+    background-image: url(./assects\ 2/img-5.jpg);
+    filter: brightness(0.90);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 40px;  
+}
+
+.main-footer ul {
+    list-style: none; 
+}
+
+
+@media screen and (max-width: 610px) {
+    .main-footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .fot-1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .fot-2 a p {
+        text-align: center;
+        flex-direction: row;
+        display: inline;
+    }
+
+    .main-footer div {
+        margin-bottom: 10px;
+    }
+
+    .main-footer ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .main-footer ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .main-footer .contact-info {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .navbar ul li{
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 525px) {
+    .login-page {
+        background-color: transparent; 
+        height: 60px;
+        width: 30px;
+
+    }
+    .login-page
+   
+}
